@@ -5,9 +5,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* Element Selectors */
-h1 {
+.topnav h1 {
     font-style: oblique;
-    text-align: center;
+    text-align: left;
+    background-color: #084B5E;
 }
 
 /* CLass Selectors */
