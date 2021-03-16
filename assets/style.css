@@ -1,5 +1,37 @@
 /* Universal Selectors */
 * {
-    background-color: #1A1423;
-    color: #FAF3F0;
+    background-color: #00100B;
+    color: #DCCDE8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Element Selectors */
+h1 {
+    font-style: oblique;
+    text-align: center;
+}
+
+/* CLass Selectors */
+.topnav {
+    background-color: #084B5E;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #D99AC5;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #DCCDE8;
+    color: #00100B
+}
+
+.topnav a:active {
+    background-color: #DCCDE8;
+    color: #3F2754
 }
