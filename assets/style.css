@@ -89,3 +89,8 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+img {
+    float: right;
+    border-radius: 100px;
+}
