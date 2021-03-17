@@ -1,22 +1,41 @@
 /* Universal Selectors */
+
 * {
     background-color: #00100B;
     color: #DCCDE8;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* Element Selectors */
-.topnav h1 .card-header {
-    font-style: oblique;
-    text-align: left;
-    background-color: #3F2754;
-    position: relative;
-    margin-top: -20px;
+header nav {
+    padding-top: 100px;
+    margin-right: 20px;
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 /* CLass Selectors */
 .topnav {
-    background-color: #084B5E;
     overflow: hidden;
+    background-image: url(https://github.com/VHarris113/VHarrisPortfolio/blob/main/assets/Resources/Images/banner.jpg);
+}
+
+.topnav h1 {
+    display: inline-block;
+    float: left;
+    background-color: #084B5E;
+    padding-left: 100px;
+    font-style: italic;
+    font-size: 300%;
+    text-align: left;
+    margin-top: 90px;
 }
 
 .topnav a {
@@ -38,3 +57,11 @@
     background-color: #DCCDE8;
     color: #3F2754
 }
+ .hero-image {
+     background-image: linear-gradient(rgba (0,0,0,0.5), rgba (0,0,0,0.5)), url("C:\Users\vnh13\gt\homework\VHarrisPortfolio\assets\Resources\Images\banner.jpg");
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
