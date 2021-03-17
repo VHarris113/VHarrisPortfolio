@@ -10,8 +10,9 @@ body {
 }
 
 p {
-    align-items: center;
+    text-align: left;
     word-wrap: normal;
+    
 }
 
 section {
@@ -34,6 +35,16 @@ header nav ul li {
 } 
 
 /* CLass Selectors */
+.background h2 {
+    display: inline-block;
+    float: right;
+    background-color:blueviolet;
+    padding-right: 50px;
+    font-style: normal;
+    font-size: 25pt;
+    text-align: right;
+    margin-top: -25px
+}
 .topnav {
     overflow: hidden;
 }
@@ -96,10 +107,30 @@ header nav ul li {
 }
 
 .aside {
-    padding-right: 30px;
+    
+    padding-right: 100px;
     margin-left: 30px;
+    text-align: end;
 }
 
 .copyright {
     text-align: center;
 }
+
+.flex-container img {
+    float: right;
+    border-radius: 100%;
+}
+
+.links {
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+    display: inherit;
+    margin-left: 25px;
+ } 
+
+ .links li {
+     padding: 20px;
+     font-size: 20pt;
+ }
