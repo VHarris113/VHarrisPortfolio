@@ -3,4 +3,4 @@
 
 ## Site Screenshot
 
-![Portfolio Site](assets\Images\webpage-wip.png)
+![Portfolio Site](https://github.com/VHarris113/VHarrisPortfolio/blob/main/assets/Images/webpage-wip.png)
