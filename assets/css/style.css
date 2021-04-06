@@ -27,6 +27,9 @@ div {
     display: inline-block;   
 }
 
+.btnNav {
+    background-color: rgb(133, 56, 197);
+}
 /* .projects-container {
     display: flex;
     max-width: 1000pt;
@@ -139,8 +142,9 @@ div {
 
 .mySlides {
     display: flex;
-    justify-content: center;
     overflow: hidden;
+    box-shadow: 1pt;
+    margin-left: 1rem;
 }
 
 .mySlides img {
