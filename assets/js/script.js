@@ -1,6 +1,6 @@
 var i = 0; //START
 var images = [];
-var time = 6000;
+var time = 4000;
 
 //Image List
 
@@ -8,7 +8,7 @@ images[0] = "assets/Images/ProjectImgs/poketradeio.png";
 images[1] = "./assets/Images/ProjectImgs/workdayscheduler.png";
 images[2] = "./assets/Images/ProjectImgs/passwordgenerator.png";
 images[3] = "./assets/Images/ProjectImgs/Horiseoncoderefractor.png";
-images[4] = "./assets/Images/ProjectImgs/screencapture-scratch-mit-edu-projects-494046636-fullscreen-2021-04-05-21_22_38.png";
+images[4] = "./assets/Images/ProjectImgs/screencapture-scratch-mit-edu-projects-494046636-fullscreen-2021-04-05-21_22_38.png"
 
 // change image
 function changeImg() {
