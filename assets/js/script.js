@@ -1,26 +1,26 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+var i = 0; //START
+var images = [];
+var time = 6000;
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+//Image List
 
-function currentSlide (n) {
-    showSlides(slideIndex = n);
-}
+images[0] = "assets/Images/ProjectImgs/poketradeio.png";
+images[1] = "./assets/Images/ProjectImgs/workdayscheduler.png";
+images[2] = "./assets/Images/ProjectImgs/passwordgenerator.png";
+images[3] = "./assets/Images/ProjectImgs/Horiseoncoderefractor.png";
+images[4] = "./assets/Images/ProjectImgs/screencapture-scratch-mit-edu-projects-494046636-fullscreen-2021-04-05-21_22_38.png";
 
-function showSlides(n) {
-    var i;
-    var slides = document.getElementById("mySlides");
-    var dots = document.getElementById("dot");
-    if (n > slides.length) {slidesIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for(i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+// change image
+function changeImg() {
+    document.slide.src = images[i];
+
+    if (i < images.length -1){
+        i++;
+    } else {
+        i = 0;
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slidesIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+
+    setTimeout("changeImg()", time);
 }
+
+window.onload = changeImg;
