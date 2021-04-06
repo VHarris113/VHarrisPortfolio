@@ -30,11 +30,6 @@ ul li {
 
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-}
-
 .navbar-collapse {
     justify-content: flex-end;
 }
