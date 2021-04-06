@@ -1,13 +1,21 @@
-/* Universal Selectors */
 * {
     font-family: 'Dancing Script', cursive;
+    box-sizing:border-box;
 }
 
+body {
+    margin: 0;
+}
 
 nav {
     width: 100%;
     background: linear-gradient(to right, rgba(197, 130, 212, 0.3), rgb(124, 48, 117));
     opacity: 10pt;
+}
+
+p,
+ul li {
+    font-family: 'Libre Baskerville', serif;
 }
 
 h1 {
@@ -19,11 +27,40 @@ div {
     display: inline-block;   
 }
 
-p,
-ul li {
-    font-family: 'Libre Baskerville', serif;
+.projects-container {
+    max-width: 1000pt;
+    position: relative;
+    margin: auto;
 }
 
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/*
 .row {
     margin-top: 1.2rem;
     margin-left: 3rem;
@@ -35,9 +72,9 @@ ul li {
 }
 
 .projects {
-    width: 10rem;
-    height: 5rem;
-    overflow: hidden;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;    
 }
 
 .mySlides {
@@ -45,5 +82,5 @@ ul li {
 }
 
 .mySlides img {
-    
-}
+
+} */
