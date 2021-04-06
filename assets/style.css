@@ -10,8 +10,29 @@ nav {
     opacity: 10pt;
 }
 
-section h1 {
+h1 {
+    display: inline-block;
     margin: 0.1rem;
+}
+
+div {
+    display: inline-block;   
+}
+
+p,
+ul li {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.row {
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-collapse {
