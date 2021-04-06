@@ -28,9 +28,11 @@ div {
 }
 
 .projects-container {
+    display: flex;
     max-width: 1000pt;
     position: relative;
-    margin: auto;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .mySlides {
@@ -40,26 +42,82 @@ div {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 80%;
     width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
+    margin-top: -22pt;
+    padding: 24pt;
+    color: rgb(66, 4, 75);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 40pt;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 3pt 3pt 0;
     user-select: none;
 }
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    right: -290pt;
+    border-radius: 3pt 0 0 3pt;
+}
+
+.prev {
+    left: 290pt;
+    border-radius: 3pt 0 0 3pt;
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(171, 144, 182, 0.8);
+}
+
+.text {
+    color: rgb(69, 30, 75);
+    font-size: 15pt;
+    padding: 8pt 12pt;
+    position: absolute;
+    bottom: 8pt;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
   }
+  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(40, 14, 41);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #de9ae7;
+}
+  
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
 /*
 .row {
     margin-top: 1.2rem;
@@ -72,7 +130,7 @@ div {
 }
 
 .projects {
-    max-width: 1000px;
+    max-width: 1000pt;
     position: relative;
     margin: auto;    
 }
