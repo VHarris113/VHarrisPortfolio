@@ -33,3 +33,17 @@ ul li {
 .navbar-collapse {
     justify-content: flex-end;
 }
+
+.projects {
+    width: 10rem;
+    height: 5rem;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    
+}
