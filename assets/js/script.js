@@ -1,6 +1,6 @@
 var i = 0; //START
 var images = [];
-var time = 4000;
+var time = 6000;
 
 //Image List
 
