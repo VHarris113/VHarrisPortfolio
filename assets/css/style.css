@@ -5,11 +5,11 @@
 
 html {
     box-sizing: border-box;
-    margin-right: 1pt
+    margin: 0rem;
 }
 
 body {
-    margin: 0;
+    margin: 0rem;
 }
 
 nav {
@@ -21,12 +21,13 @@ nav {
 p,
 ul li {
     font-family: 'Libre Baskerville', serif;
-    margin-right: 114pt;
+    margin-right: 1rem;
 }
 
 h1 {
     display: inline-block;
-    margin: 0.1rem;
+    justify-content: center;
+    margin: 3rem;
 }
 
 div {
@@ -39,6 +40,10 @@ section ul li {
 
 section ul li a {
     font-family: 'Libre Baskerville', serif;
+}
+
+.intro {
+    margin-top: 2rem;
 }
 
 .btnNav {
@@ -61,9 +66,7 @@ section ul li a {
 }
 
 .row {
-    margin-top: 1.2rem;
-    margin-left: 3rem;
-
+    margin: 0rem;
 }
 
 .navbar-collapse {
@@ -92,3 +95,13 @@ section ul li a {
 .links {
     margin-right: -8rem;
 }
+
+.text-block {
+    position: absolute;
+    background-color: #f0bcf7;
+    color: #000000;
+    font-size: 2rem;
+    margin-left: -5rem;
+    margin-top: -3rem;
+    padding-left: 6rem;
+  }
