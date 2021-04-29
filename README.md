@@ -11,9 +11,9 @@
 This is an updated portfolio page for what I've learned and developed over the three month journey in my full stack web development boot camp. In the website, it features things I've learned as well as links to other Git Hub repos that have my work updated.
 
 ## Website
-[Deployed Site]:(https://vharris113.github.io/VHarrisPortfolio/)
+[Deployed Site](https://vharris113.github.io/VHarrisPortfolio/)
 
-![Portfolio Site](https://github.com/VHarris113/VHarrisPortfolio/blob/6199712ebffef39a2f9dd351eba51cf9c7b11a2f/assets/Images/screencap.png)
+![Portfolio Site](https://github.com/VHarris113/VHarrisPortfolio/blob/538d8b6d69b3471ca6e42a9fca7c0aa06960406f/assets/Images/screencap.png)
 
 ## Languages
 For the website:
