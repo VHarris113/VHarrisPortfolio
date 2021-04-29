@@ -34,10 +34,6 @@ div {
     display: inline-block;   
 }
 
-section ul li {
-    list-style: none;
-}
-
 section ul li a {
     font-family: 'Libre Baskerville', serif;
 }
@@ -105,3 +101,51 @@ section ul li a {
     margin-top: -3rem;
     padding-left: 6rem;
   }
+
+.works {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.content {
+    position: relative;
+    max-width: 50rem;
+}
+
+.wordcontainer {
+    background-color: #e8c0ec;
+}
+
+.btn {
+    background-color: #e4c9e7;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #441449;
+    color: #FFFFFF;
+}
+
+.btnpositions {
+    position: relative;
+}
+
+.btn2 {
+    position: relative;
+    left: 35rem;
+}
+
+.gitlink {
+    display: flex;
+    justify-content: center;
+}
