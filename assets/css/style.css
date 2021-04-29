@@ -149,3 +149,7 @@ section ul li a {
     display: flex;
     justify-content: center;
 }
+
+.repo {
+    padding-left: 20rem;
+}
